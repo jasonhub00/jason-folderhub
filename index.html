@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./calculator.css">
+</head>
+<body>
+    <main>
+        <div class="calc">
+            <input type="text" id="display" disabled>
+            <button class="lightgrey" onclick="allclear()">Ac</button>
+            <button class="lightgrey" onclick="root()">√</button>
+            <button class="lightgrey" onclick="raise()">^</button>
+            <button class="gold" onclick="divide()">⁄</button><br>
+
+            <button class="grey" onclick="seven()">7</button>
+            <button class="grey" onclick="eight()">8</button>
+            <button class="grey" onclick="nine()">9</button>
+            <button class="gold" onclick="multiply()">×</button><br>
+
+            <button class="grey" onclick="four()">4</button>
+            <button class="grey" onclick="five()">5</button>
+            <button class="grey" onclick="six()">6</button>
+            <button class="gold" onclick="minus()">–</button><br>
+
+            <button class="grey" onclick="one()">1</button>
+            <button class="grey" onclick="two()">2</button>
+            <button class="grey" onclick="three()">3</button>
+            <button class="gold" onclick="plus()">+</button><br>
+            
+            <button id="zero" class="grey" onclick="zero()">0</button>
+            <button class="grey" onclick="dot()">.</button>
+            <button class="gold" onclick="equals()">=</button>
+        </div>
+    </main>
+  <script src="./calculator.js"></script>  
+</body>
+</html>
